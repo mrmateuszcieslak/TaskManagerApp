@@ -1,0 +1,199 @@
+﻿body {
+    font-family: 'Merriweather',sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family: 'Merriweather',sans-serif;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+form input,
+form select,
+form button {
+    font-family: 'Merriweather',sans-serif;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+form input {
+    flex: 2;
+}
+
+form select,
+form button {
+    flex: 1;
+}
+
+button submit {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+    color: black;
+    font-weight: 500;
+    font-family: 'Merriweather',sans-serif;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+#controlA-Z,
+#controlZ-A,
+#control-early,
+#control-later,
+#control-pdf {
+    margin: 10px 0;
+}
+
+#controlA-Z button,
+#controlZ-A button,
+#control-early button,
+#control-later button,
+#control-pdf button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Merriweather',sans-serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+    #controlA-Z button {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        font-family: 'Merriweather',sans-serif;
+        font-size: 14px;
+        margin-bottom: 10px;
+        font-family: 'Merriweather',sans-serif;
+        background-color: #e4c0a8;
+    }
+    #controlZ-A button {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        font-family: 'Merriweather',sans-serif;
+        font-size: 14px;
+        margin-bottom: 10px;
+        font-family: 'Merriweather',sans-serif;
+        background-color: #e4c0a6;
+    }
+
+#control-early button {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        font-family: 'Merriweather',sans-serif;
+        font-size: 14px;
+        margin-bottom: 10px;
+        font-family: 'Merriweather',sans-serif;
+        background-color: aqua;
+    }
+#control-later button {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        font-family: 'Merriweather',sans-serif;
+        font-size: 14px;
+        margin-bottom: 10px;
+        background-color: lawngreen;
+    }
+#control-pdf button {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        font-family: 'Merriweather',sans-serif;
+        font-size: 14px;
+        margin-bottom: 10px;
+        background-color: red;
+        color: ghostwhite;
+    }
+#control-json button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: 'Merriweather',sans-serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+ #filter-input{
+    width: 97%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: 'Merriweather',sans-serif;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 5px 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li span {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+li form {
+      display: inline;
+ }
+
+li button {
+   background-color: #dc3545;
+   border: none;
+   color: white;
+   padding: 5px 10px;
+   border-radius: 3px;
+   font-family: 'Merriweather',sans-serif;
+   cursor: pointer;
+ }
+ li button:hover {
+   background-color: #c82333;
+  }
+
+.edit-button {
+    background-color: #ffc107;
+    font-family:'Merriweather',sans-serif;
+    margin-right: 5px;
+}
+ .edit-button:hover {
+     background-color: #e0a800;
+ }
+footer {
+    font-family: 'Merriweather',sans-serif;
+    text-align: center;
+}
+
+

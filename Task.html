@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="Task.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Merriweather+Sans:ital,wght@0,300..800&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Task Manager</h1>
+        <form id="task-form">
+            <input type="text" id="task-input" placeholder="Wpisz zadanie">
+            <input type="date" id="date-input">
+            <select id="status-input">
+                <option value="Do zrobienia">Do zrobienia</option>
+                <option value="W trakcie">W trakcie</option>
+                <option value="Ukończone">Ukończone</option>
+            </select>
+            <button type="submit">Dodaj zadanie</button>
+        </form>
+        <div id="controlA-Z">
+            <button id="sort-asc">Sortuj A-Z</button>
+        </div>
+        <div id="controlZ-A">
+            <button id="sort-desc">Sortuj Z-A</button>
+        </div>
+        <div id="control-early">
+            <button id="sort-date-asc">Sortuj po dacie(Wcześniej)</button>
+        </div>
+        <div id="control-later">
+            <button id="sort-date-desc">Sortuj po dacie(Póżniej)</button>
+        </div>
+        <div id="filter-task">
+            <input type="text" id="filter-input" placeholder="Szukaj zadania">
+        </div>
+        <div id="control-pdf">
+            <button id="download-pdf">Pobierz listę PDF</button>
+        </div>
+        <div id="control-json">
+            <button id="download-json">Pobierz listę JSON</button>
+        </div>
+        <ul id="task-list"></ul>
+        <script src="Task.js"></script>
+    </div>
+</body>
+</html>
