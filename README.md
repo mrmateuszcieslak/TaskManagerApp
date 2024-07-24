@@ -5,4 +5,4 @@ Użytkownicy mogą dodawać, edytować, usuwać oraz sortować zadania, a także
 Pliki:
 •	Task.html: Strona główna aplikacji.
 •	Task.css: Plik stylów CSS.
-•	Task.js: Logika aplikacji, która obsługuje dodawanie, usuwanie, edytowanie, sortowanie, filtrowanie oraz pobieranie zadań. Uwzględnia obsługę polskich znaków w formacie PDF i JSON..
+•	Task.js: Logika aplikacji, która obsługuje dodawanie, usuwanie, edytowanie, sortowanie, filtrowanie oraz pobieranie zadań. Uwzględnia obsługę polskich znaków w formacie PDF i JSON.
