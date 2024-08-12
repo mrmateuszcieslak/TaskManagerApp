@@ -1,8 +1,8 @@
+Task Manager is a web-based application that allows users to manage tasks. 
+Users can add, edit, delete and sort tasks, as well as download a list of tasks in PDF and JSON format.
 
-Task Manager to aplikacja internetowa, która umożliwia użytkownikom zarządzanie zadaniami. 
-Użytkownicy mogą dodawać, edytować, usuwać oraz sortować zadania, a także pobierać listę zadań w formacie PDF i JSON.
+Files:
+- Task.html: Home page of the application.
+- Task.css: CSS style file.
+- Task.js: Application logic that supports adding, deleting, editing, sorting, filtering and downloading tasks. Includes support for Polish characters in PDF and JSON.
 
-Pliki:
-•	Task.html: Strona główna aplikacji.
-•	Task.css: Plik stylów CSS.
-•	Task.js: Logika aplikacji, która obsługuje dodawanie, usuwanie, edytowanie, sortowanie, filtrowanie oraz pobieranie zadań. Uwzględnia obsługę polskich znaków w formacie PDF i JSON.
